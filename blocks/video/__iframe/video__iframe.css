@@ -1,9 +1,14 @@
 .video__iframe {
-  width: 515px;
+  width: 100%;
+  max-width: 515px;
   height: 316px;
   border: none;
+  margin: 10px;
 }
 
-.video__iframe:first-of-type {
-  margin-right: 20px;
+@media screen and (max-width: 600px) {
+  .video__iframe {
+    width: 90%;
+    max-width: unset;
+  }
 }

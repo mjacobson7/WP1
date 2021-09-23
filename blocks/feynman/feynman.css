@@ -3,3 +3,9 @@
   position: relative;
   background-color: #f2f2f2;
 }
+
+@media screen and (max-width: 1300px) {
+  .feynman {
+    min-height: 600px;
+  }
+}

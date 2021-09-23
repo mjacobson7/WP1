@@ -7,5 +7,21 @@
   font-weight: normal;
   z-index: 2;
   margin: 0;
-  width: 388px;
+  max-width: 388px;
+}
+
+@media (max-width: 1200px) {
+  .header__subtitle {
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header__subtitle {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    left: 10px;
+    bottom: 10px;
+  }
 }

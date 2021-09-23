@@ -1,6 +1,14 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  width: 80%;
-  min-width: 784px;
+  padding: 10px;
+  width: 100%;
+  max-width: 784px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .two-columns {
+    flex-direction: column;
+  }
 }
