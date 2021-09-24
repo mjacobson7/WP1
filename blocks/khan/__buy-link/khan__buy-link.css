@@ -12,7 +12,7 @@
   transition: opacity 0.3s;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .khan__buy-link {
     display: none;
   }
